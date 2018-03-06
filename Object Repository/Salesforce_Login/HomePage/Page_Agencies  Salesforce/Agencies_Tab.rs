@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Agencies_Tab</name>
+   <tag></tag>
+   <elementGuidId>238510df-2ad2-4e4c-850e-b804bb6b278c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'desktop container')]/div[@aria-hidden='false']//header[@id='oneHeader']//a[@title='Agencies']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-truncate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Agencies</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'desktop container')]/div[@aria-hidden='false']//header[@id='oneHeader']//a[@title='Agencies']</value>
+   </webElementProperties>
+</WebElementEntity>

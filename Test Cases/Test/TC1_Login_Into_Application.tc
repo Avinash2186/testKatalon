@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_Login_Into_Application</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48a75bc4-461d-4a01-b9e3-f9638aef7cf5</testCaseGuid>
+</TestCaseEntity>

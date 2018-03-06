@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase2</name>
+   <tag></tag>
+   <comment>Taking our List of Elements
+Clicking on Gmail Link</comment>
+   <testCaseGuid>5ebde9c8-37f9-4f28-b238-7382b9c4eab9</testCaseGuid>
+   <variable>
+      <defaultValue>'hi'</defaultValue>
+      <description></description>
+      <id>5f310d89-a30c-4ab9-948b-7af4b696d2b1</id>
+      <masked>false</masked>
+      <name>textVariable</name>
+   </variable>
+</TestCaseEntity>

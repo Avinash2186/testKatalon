@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select_Lead</name>
+   <tag></tag>
+   <elementGuidId>f927820f-effe-4bd9-a5b3-9e1ddbc91ba8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[contains(@class,'windowViewMode-normal')]//table[contains(@class,'forceRecordLayout')]//a[contains(@class,'slds-truncate')])[3]</value>
+   </webElementProperties>
+</WebElementEntity>

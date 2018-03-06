@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Leads</name>
+   <tag></tag>
+   <elementGuidId>edb76ece-511b-4e6f-a280-1e82977b3cab</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-truncate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leads</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;oneHeader&quot;)/div[@class=&quot;bBottom&quot;]/one-appnav[1]/div[@class=&quot;slds-context-bar&quot;]/one-app-nav-bar[@class=&quot;slds-grid slds-has-flexi-truncate&quot;]/nav[@class=&quot;slds-context-bar__secondary navCenter&quot;]/ul[@class=&quot;slds-grid slds-has-flexi-truncate&quot;]/li[@class=&quot;slds-context-bar__item slds-shrink-none&quot;]/a[@class=&quot;slds-context-bar__label-action&quot;]/span[@class=&quot;slds-truncate&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
