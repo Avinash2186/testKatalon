@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite1,Chrome 63.0.3239.132,,2018-03-06 17:15:09,2018-03-06 17:15:46,36.844s,ERROR
+,,,,,,
+Test Cases/Test/TC1_Login_Into_Application,Chrome 63.0.3239.132,,2018-03-06 17:15:25,2018-03-06 17:15:32,7.164s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2018-03-06 17:15:25,2018-03-06 17:15:25,0.022s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-03-06 17:15:25,2018-03-06 17:15:26,0.539s,PASSED
+setText,Chrome 63.0.3239.132,,2018-03-06 17:15:26,2018-03-06 17:15:28,2.125s,PASSED
+setText,Chrome 63.0.3239.132,,2018-03-06 17:15:28,2018-03-06 17:15:29,0.789s,PASSED
+click,Chrome 63.0.3239.132,,2018-03-06 17:15:29,2018-03-06 17:15:32,3.122s,PASSED
+delay,Chrome 63.0.3239.132,,2018-03-06 17:15:32,2018-03-06 17:15:32,0.031s,NOT_RUN
+waitForElementVisible,Chrome 63.0.3239.132,,2018-03-06 17:15:32,2018-03-06 17:15:32,0.036s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 63.0.3239.132,,2018-03-06 17:15:32,2018-03-06 17:15:32,0.026s,PASSED
+,,,,,,
+Test Cases/Test/TC2_Click_On_Agency_Tab,Chrome 63.0.3239.132,,2018-03-06 17:15:32,2018-03-06 17:15:43,11.005s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2018-03-06 17:15:32,2018-03-06 17:15:32,0.016s,PASSED
+click,Chrome 63.0.3239.132,,2018-03-06 17:15:32,2018-03-06 17:15:41,8.625s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-03-06 17:15:41,2018-03-06 17:15:43,1.912s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 63.0.3239.132,,2018-03-06 17:15:43,2018-03-06 17:15:43,0.007s,PASSED
+,,,,,,
+Test Cases/Test/TC3_Click_On_Lead_Tab,Chrome 63.0.3239.132,,2018-03-06 17:15:43,2018-03-06 17:15:45,2.166s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2018-03-06 17:15:43,2018-03-06 17:15:43,0.018s,PASSED
+click,Chrome 63.0.3239.132,,2018-03-06 17:15:43,2018-03-06 17:15:45,1.246s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-03-06 17:15:45,2018-03-06 17:15:45,0.566s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 63.0.3239.132,,2018-03-06 17:15:45,2018-03-06 17:15:45,0.005s,PASSED

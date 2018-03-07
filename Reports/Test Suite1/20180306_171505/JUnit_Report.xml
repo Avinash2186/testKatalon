@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite1" time="36" tests="2" failures="0" errors="1">
+   <testsuite name="Test Suite1" tests="2" failures="0" errors="1" time="36" timestamp="2018-03-06 17:15:09" hostname="avmotwan - LNAR-PC08DFZV.corp.capgemini.com" id="Test Suites/Test Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\avmotwan\\git\\testKatalon\\Reports\\Test Suite1\\20180306_171505"/>
+         <property name="logFiles" value="C:\\Users\\avmotwan\\git\\testKatalon\\Reports\\Test Suite1\\20180306_171505\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\avmotwan\\git\\testKatalon\\Reports\\Test Suite1\\20180306_171505\\1520374541529.png, C:\\Users\\avmotwan\\git\\testKatalon\\Reports\\Test Suite1\\20180306_171505\\1520374545024.png"/>
+         <property name="hostName" value="avmotwan - LNAR-PC08DFZV.corp.capgemini.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.135.84.153"/>
+         <property name="sessionId" value="045585a43d99204598d656bc4c4064e8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Test/TC1_Login_Into_Application" classname="Test Cases/Test/TC1_Login_Into_Application" status="ERROR">
+         <error type="ERROR" message="Test Cases/Test/TC1_Login_Into_Application FAILED because (of) Variable 'G_Timeout' is not defined for test case."/>
+         <system-out><![CDATA[2018-03-06 17:15:25 - [TEST_CASE][ERROR] - Test Cases/Test/TC1_Login_Into_Application: Test Cases/Test/TC1_Login_Into_Application FAILED because (of) Variable 'G_Timeout' is not defined for test case.
+
+2018-03-06 17:15:25 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-03-06 17:15:25 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-03-06 17:15:25 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-03-06 17:15:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 17:15:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 17:15:26 - [TEST_STEP][PASSED] - setText: Text 'nsur1@sfia.com.iaperf1' is set on object 'Object Repository/Salesforce_Login/Page_Login  Salesforce/input_username'
+
+2018-03-06 17:15:28 - [MESSAGE][PASSED] - Text 'nsur1@sfia.com.iaperf1' is set on object 'Object Repository/Salesforce_Login/Page_Login  Salesforce/input_username'
+
+2018-03-06 17:15:28 - [TEST_STEP][PASSED] - setText: Text 'Sfiatest11' is set on object 'Object Repository/Salesforce_Login/Page_Login  Salesforce/input_pw'
+
+2018-03-06 17:15:29 - [MESSAGE][PASSED] - Text 'Sfiatest11' is set on object 'Object Repository/Salesforce_Login/Page_Login  Salesforce/input_pw'
+
+2018-03-06 17:15:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Salesforce_Login/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-06 17:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Salesforce_Login/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-06 17:15:32 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-03-06 17:15:32 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-03-06 17:15:32 - [TEST_STEP][PASSED] - waitForElementVisible: Finding Test Object with id 'Object Repository/Salesforce_Login/HomePage/Page_Agencies  Salesforce/Agencies_Tab'
+
+2018-03-06 17:15:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-03-06 17:15:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-03-06 17:15:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-03-06 17:15:25 - [TEST_CASE][ERROR] - Test Cases/Test/TC1_Login_Into_Application: Test Cases/Test/TC1_Login_Into_Application FAILED because (of) Variable 'G_Timeout' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test/TC2_Click_On_Agency_Tab" classname="Test Cases/Test/TC2_Click_On_Agency_Tab" status="PASSED">
+         <system-out><![CDATA[2018-03-06 17:15:32 - [TEST_CASE][PASSED] - Test Cases/Test/TC2_Click_On_Agency_Tab: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-03-06 17:15:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-03-06 17:15:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-03-06 17:15:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-03-06 17:15:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Salesforce_Login/HomePage/Page_Agencies  Salesforce/Agencies_Tab' is clicked on
+
+2018-03-06 17:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Salesforce_Login/HomePage/Page_Agencies  Salesforce/Agencies_Tab' is clicked on
+
+2018-03-06 17:15:41 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-03-06 17:15:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\avmotwan\\git\\testKatalon\\Reports\\Test Suite1\\20180306_171505\\1520374541529.png]]
+
+2018-03-06 17:15:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-03-06 17:15:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-03-06 17:15:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test/TC3_Click_On_Lead_Tab" classname="Test Cases/Test/TC3_Click_On_Lead_Tab" status="PASSED">
+         <system-out><![CDATA[2018-03-06 17:15:43 - [TEST_CASE][PASSED] - Test Cases/Test/TC3_Click_On_Lead_Tab: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-03-06 17:15:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-03-06 17:15:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-03-06 17:15:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-03-06 17:15:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Salesforce_Login/HomePage/Page_Agencies  Salesforce/Leads_Tab' is clicked on
+
+2018-03-06 17:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Salesforce_Login/HomePage/Page_Agencies  Salesforce/Leads_Tab' is clicked on
+
+2018-03-06 17:15:45 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-03-06 17:15:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\avmotwan\\git\\testKatalon\\Reports\\Test Suite1\\20180306_171505\\1520374545024.png]]
+
+2018-03-06 17:15:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-03-06 17:15:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-03-06 17:15:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-06 17:15:09 - [TEST_SUITE][ERROR] - Test Suite1: Test Cases/Test/TC1_Login_Into_Application FAILED because (of) Variable 'G_Timeout' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-03-06 17:15:09 - [TEST_SUITE][ERROR] - Test Suite1: Test Cases/Test/TC1_Login_Into_Application FAILED because (of) Variable 'G_Timeout' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

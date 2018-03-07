@@ -23,21 +23,8 @@ import org.testng.Assert as Assert
 
 
 
-WebUI.navigateToUrl('https://iaops--iaperf.cs65.my.salesforce.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Salesforce_Login/Page_Login  Salesforce/input_username'), 'businessadmin@sfia.com.iaperf1  ')
-
-WebUI.setText(findTestObject('Salesforce_Login/Page_Login  Salesforce/input_pw'), 'Sfiatest11')
+WebUI.click(findTestObject('Salesforce_Login/HomePage/Page_Agencies  Salesforce/Agencies_Tab'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Salesforce_Login/Page_Login  Salesforce/input_Login'))
-
-WebUI.waitForElementVisible(findTestObject('Salesforce_Login/HomePage/Page_Agencies  Salesforce/Leads_Tab'), 20)
-
-Assert.assertTrue(WebUI.getUrl().contains('iaperf.lightning.force.com/lightning/page/home'))
-
-WebUI.takeScreenshot()
 
