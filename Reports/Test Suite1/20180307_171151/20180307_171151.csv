@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite1,Chrome 63.0.3239.132,,2018-03-07 17:11:55,2018-03-07 17:12:59,1m - 3.566s,PASSED
+,,,,,,
+Test Cases/Test/TC1_Login_Into_Application,Chrome 63.0.3239.132,,2018-03-07 17:12:21,2018-03-07 17:12:45,24.486s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2018-03-07 17:12:21,2018-03-07 17:12:21,0.068s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-03-07 17:12:22,2018-03-07 17:12:24,2.458s,PASSED
+setText,Chrome 63.0.3239.132,,2018-03-07 17:12:24,2018-03-07 17:12:31,6.350s,PASSED
+setText,Chrome 63.0.3239.132,,2018-03-07 17:12:31,2018-03-07 17:12:32,1.507s,PASSED
+click,Chrome 63.0.3239.132,,2018-03-07 17:12:32,2018-03-07 17:12:36,3.818s,PASSED
+delay,Chrome 63.0.3239.132,,2018-03-07 17:12:36,2018-03-07 17:12:36,0.009s,NOT_RUN
+waitForElementVisible,Chrome 63.0.3239.132,,2018-03-07 17:12:36,2018-03-07 17:12:45,9.335s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-03-07 17:12:45,2018-03-07 17:12:45,0.004s,NOT_RUN
+Start listener action : sampleAfterTestCase,Chrome 63.0.3239.132,,2018-03-07 17:12:45,2018-03-07 17:12:45,0.018s,PASSED
+,,,,,,
+Test Cases/Test/TC2_Click_On_Agency_Tab,Chrome 63.0.3239.132,,2018-03-07 17:12:45,2018-03-07 17:12:51,5.066s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2018-03-07 17:12:46,2018-03-07 17:12:46,0.028s,PASSED
+click,Chrome 63.0.3239.132,,2018-03-07 17:12:46,2018-03-07 17:12:46,0.446s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-03-07 17:12:46,2018-03-07 17:12:51,4.132s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 63.0.3239.132,,2018-03-07 17:12:51,2018-03-07 17:12:51,0.018s,PASSED
+,,,,,,
+Test Cases/Test/TC3_Click_On_Lead_Tab,Chrome 63.0.3239.132,,2018-03-07 17:12:51,2018-03-07 17:12:54,3.634s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2018-03-07 17:12:51,2018-03-07 17:12:51,0.008s,PASSED
+click,Chrome 63.0.3239.132,,2018-03-07 17:12:51,2018-03-07 17:12:53,1.643s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-03-07 17:12:53,2018-03-07 17:12:54,1.350s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 63.0.3239.132,,2018-03-07 17:12:54,2018-03-07 17:12:54,0.010s,PASSED
+,,,,,,
+Test Cases/Test/TestCase3,Chrome 63.0.3239.132,,2018-03-07 17:12:54,2018-03-07 17:12:57,2.542s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2018-03-07 17:12:54,2018-03-07 17:12:54,0.007s,PASSED
+click,Chrome 63.0.3239.132,,2018-03-07 17:12:55,2018-03-07 17:12:55,0.291s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-03-07 17:12:55,2018-03-07 17:12:57,1.653s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 63.0.3239.132,,2018-03-07 17:12:57,2018-03-07 17:12:57,0.010s,PASSED
